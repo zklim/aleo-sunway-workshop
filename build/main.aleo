@@ -88,3 +88,11 @@ finalize transfer_public_to_private:
     get.or_use balance[r1] 0u64 into r2;
     sub r2 r0 into r3;
     set r3 into balance[r1];
+
+
+function join:
+    input r0 as Token.record;
+    input r1 as Token.record;
+    add r0.amount r1.amount into r2;
+    cast self.caller r2 into r3 as Token.record;
+    output r3 as Token.record;

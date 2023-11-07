@@ -17,3 +17,15 @@ input: Token = Token {
 [transfer_public_to_private]
 amount: u64 = 50u64;
 receiver: address = aleo1gw4cwu5c4ntvju3ve4w39m3sl5fqstsanek2adeu54fe6tj7cczqcvtdnc;
+
+[join]
+input: Token = Token {
+  owner: aleo16mxfxvxzwwwql9gt26vq5rvz6hqnckxfd6u0g04c6qy6wqucxyrs84vunp,
+  amount: 100u64,
+  _nonce: 4478962074466618878375808752409629346312293552469042714911910764597504057177group
+};
+input2: Token = Token {
+  owner: aleo16mxfxvxzwwwql9gt26vq5rvz6hqnckxfd6u0g04c6qy6wqucxyrs84vunp,
+  amount: 100u64,
+  _nonce: 4478962074466618878375808752409629346312293552469042714911910764597504057177group
+};
